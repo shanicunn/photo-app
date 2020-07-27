@@ -3,14 +3,16 @@
 }
 
 .child {
-  display: flex;
+  
 }
 .nav {
-  justify-content: center;
+  display: flex;
+
 }
 .nav h2 {
   border: 1px solid black;
   padding: 20px;
+  justify-content: center;
 }
 .home {
 
@@ -19,9 +21,21 @@
 .photoGrid {
 
 }
-
+.profile-nav {
+  grid-area: profile-nav;
+}
+.profile-pic {
+  height: 100px;
+  border-radius: 30px;
+}
 .profile {
-
+  display: grid;
+  grid-template-areas: "profile-nav"
+                        "content";
+}
+.content {
+  border: 1px solid black;
+  grid-area: content;
 }
 
 .bookmarks {
