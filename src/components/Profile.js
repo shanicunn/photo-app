@@ -1,5 +1,5 @@
 import React from 'react';
-// import PhotoGrid from './Photo-Grid';
+import PhotoGrid from './PhotoGrid';
 import Nav from './Nav';
 import profilePic from '../assets/profilepic.jpeg'
 
@@ -21,7 +21,7 @@ class Profile extends React.Component {
                     <h1>shanicunn</h1>
 
                     {/* Grid of Photos */}
-                    {/* <PhotoGrid /> */}
+                    <PhotoGrid />
                     
                 </div>
 
