@@ -1,25 +1,35 @@
 import React from 'react';
-import PhotoGrid from './Photo-Grid';
+// import PhotoGrid from './Photo-Grid';
+import Nav from './Nav';
+import profilePic from '../assets/profilepic.jpeg'
 
-export class Profile extends React.Component {
+class Profile extends React.Component {
 
     render() {
 
     
         return (
             <div className="child profile">
+                <div className="profile-nav">
+                    <Nav />
+                </div>
+                <div className="content">
+                     {/* Profile Image */}
+                    <img className="profile-pic" src={profilePic} alt=""></img>
 
-                {/* Profile Image */}
-                <img className="profile-pic" src="" alt=""></img>
+                    {/* Username Here */}
+                    <h1>shanicunn</h1>
 
-                {/* Username Here */}
-                <h1>Username</h1>
+                    {/* Grid of Photos */}
+                    {/* <PhotoGrid /> */}
+                    
+                </div>
 
-                {/* Grid of Photos */}
-                <PhotoGrid />
-                
+
+               
             </div>
         )
     
     }
 }
+export default Profile;
