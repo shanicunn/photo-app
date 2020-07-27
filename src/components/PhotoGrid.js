@@ -1,6 +1,6 @@
 import React from 'react';
 
-export function PhotoGrid() {
+function PhotoGrid() {
     return (
         <div className="photoGrid">
             <div className="row-1">
@@ -26,3 +26,5 @@ export function PhotoGrid() {
         </div>
     )
 }
+
+export default PhotoGrid;
