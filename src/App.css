@@ -1,9 +1,10 @@
 .App {
   /* text-align: center; */
+  margin: auto;
 }
 
 .child {
-  
+  width: 500px;
 }
 .nav {
   display: flex;
@@ -27,6 +28,7 @@
 .profile-pic {
   height: 100px;
   border-radius: 30px;
+ 
 }
 .profile {
   display: grid;
@@ -36,6 +38,7 @@
 .content {
   border: 1px solid black;
   grid-area: content;
+  padding: 20px;
 }
 
 .bookmarks {
