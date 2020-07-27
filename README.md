@@ -11,8 +11,8 @@
 
 # Hint
 * This is hard-coded user information inside of state
-* User Profile
-* Profile Image
-* Username
-* Grid Photos
+    * User Profile
+    * Profile Image
+    * Username
+    * Grid Photos
 * Use a Javascript, CSS, frontend library  (SASS/Bootstrap/etc.) - only one library. Not one of each.# photo-app
