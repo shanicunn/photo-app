@@ -1,4 +1,5 @@
 import React from 'react';
+import UserLog from './UserLog';
 
 class Nav extends React.Component {
 
@@ -8,6 +9,7 @@ class Nav extends React.Component {
                 <a href= "#home"> <h2>Home</h2> </a>
                 <a href= "#profile"> <h2>Profile</h2> </a>
                 <a href= "#bookmarks"> <h2>Bookmarks</h2> </a>
+                <UserLog />
             </div>
         )
     }
