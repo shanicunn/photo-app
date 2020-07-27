@@ -1,10 +1,13 @@
+body {
+  margin-left: 25%;
+}
 .App {
   /* text-align: center; */
-  margin: auto;
+ 
 }
 
 .child {
-  width: 500px;
+  width: 800px;
 }
 .nav {
   display: flex;
@@ -22,12 +25,18 @@
 .photoGrid {
 
 }
+.gridPhoto {
+  height: 200px;
+  /* background: linear-gradient(90deg, #d53369 0%, #daae51 100%); */
+  padding: 10px;
+}
 .profile-nav {
   grid-area: profile-nav;
 }
 .profile-pic {
   height: 100px;
   border-radius: 30px;
+  margin-left: 40%;
  
 }
 .profile {
@@ -39,6 +48,8 @@
   border: 1px solid black;
   grid-area: content;
   padding: 20px;
+  color: #daae51 ;
+
 }
 
 .bookmarks {
