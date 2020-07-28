@@ -1,6 +1,7 @@
 import React from 'react';
 import PhotoGrid from './PhotoGrid';
 import Nav from './Nav';
+import UserLog from './UserLog';
 import profilePic from '../assets/profilepic.jpeg'
 
 class Profile extends React.Component {
@@ -19,7 +20,7 @@ class Profile extends React.Component {
 
                     {/* Username Here */}
                     <h1>shanicunn</h1>
-
+                    <UserLog />
                     {/* Grid of Photos */}
                     <PhotoGrid />
                     
