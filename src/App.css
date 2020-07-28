@@ -41,6 +41,8 @@ body {
 .profile-pic {
   height: 100px;
   border-radius: 30px;
+  border: hotpink 1px solid;
+  box-shadow: lightblue 1px 1px 1px;
 }
 .profile {
   display: grid;
@@ -53,6 +55,7 @@ body {
   padding: 20px;
   color: #daae51 ;
   text-align: center;
+  text-shadow: black 1px 1px 1px;
 }
 
 .bookmarks {
