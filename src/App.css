@@ -67,4 +67,6 @@ body {
   border: none;
   background-color: bisque;
   width: 100p;
+  color: #daae51 ;
+  text-shadow: black 1px 1px 1px;
 }
