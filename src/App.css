@@ -56,6 +56,10 @@ body {
   box-shadow: lightblue 1px 1px 1px;
 }
 
+.profile-pic:hover {
+  height: 150px;
+}
+
 .profile {
   display: grid;
   grid-template-areas: "profile-nav"
