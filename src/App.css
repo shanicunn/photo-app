@@ -21,6 +21,7 @@ body {
   border: 1px solid hotpink;
   padding: 20px;
   justify-content: space-between;
+  text-decoration: none;
 }
 .home {
 
