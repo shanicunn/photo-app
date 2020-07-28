@@ -4,8 +4,8 @@ body {
 }
 .App {
   /* text-align: center; */
- 
- 
+  font-family: 'Raleway', sans-serif;
+
 }
 
 .child {
@@ -13,44 +13,52 @@ body {
   background-color: bisque;
   
 }
+
 .nav {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
+
 .nav h2{
-  border: 1px solid hotpink;
+  /* border: 1px solid hotpink; */
   padding: 20px;
-  justify-content: space-between;
-  text-decoration: none;
-}
-.home {
-
+  justify-content: center;
+  color: #d53369;
 }
 
-.photoGrid {
+/* .home {
 
-}
+} */
+
+/* .photoGrid {
+
+} */
+
 .gridPhoto {
   height: 200px;
   /* background: linear-gradient(90deg, #d53369 0%, #daae51 100%); */
   margin: 10px;
   border: 1px solid hotpink;
 }
+
 .profile-nav {
   grid-area: profile-nav;
 }
+
 .profile-pic {
   height: 100px;
   border-radius: 30px;
   border: hotpink 1px solid;
   box-shadow: lightblue 1px 1px 1px;
 }
+
 .profile {
   display: grid;
   grid-template-areas: "profile-nav"
                         "content";
   width: 700px;
 }
+
 .content {
   /* border: 1px solid black; */
   grid-area: content;
@@ -60,9 +68,9 @@ body {
   text-shadow: black 1px 1px 1px;
 }
 
-.bookmarks {
+/* .bookmarks {
 
-}
+} */
 
 .userLog button {
   border: none;
