@@ -39,6 +39,7 @@ body {
   margin: 10px;
   border: 1px solid hotpink;
   box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+  border-radius: 30px;
 }
 .gridPhoto:hover {
   opacity: 0.5;
