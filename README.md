@@ -1,5 +1,5 @@
 # Wireframe 
-
+![Wireframe](src/assets/Photo-App-Wireframe.png)
 # A proper Readme.md file 
 
 # Navigation Bar
