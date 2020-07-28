@@ -9,7 +9,7 @@ body {
 }
 
 .child {
-  width: 700px;
+  
   background-color: bisque;
   
 }
@@ -48,6 +48,7 @@ body {
   display: grid;
   grid-template-areas: "profile-nav"
                         "content";
+  width: 700px;
 }
 .content {
   /* border: 1px solid black; */
@@ -65,4 +66,5 @@ body {
 .userLog button {
   border: none;
   background-color: bisque;
+  width: 100p;
 }
