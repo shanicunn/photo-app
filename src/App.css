@@ -40,7 +40,9 @@ body {
   margin: 10px;
   border: 1px solid hotpink;
 }
-
+.gridPhoto:hover {
+  opacity: 0.5;
+}
 .profile-nav {
   grid-area: profile-nav;
 }
