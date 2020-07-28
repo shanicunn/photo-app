@@ -5,13 +5,10 @@ body {
 .App {
   /* text-align: center; */
   font-family: 'Raleway', sans-serif;
-
 }
 
 .child {
-  
   background-color: bisque;
-  
 }
 
 .nav {
@@ -41,6 +38,7 @@ body {
   /* background: linear-gradient(90deg, #d53369 0%, #daae51 100%); */
   margin: 10px;
   border: 1px solid hotpink;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
 }
 .gridPhoto:hover {
   opacity: 0.5;
@@ -53,7 +51,7 @@ body {
   height: 100px;
   border-radius: 30px;
   border: hotpink 1px solid;
-  box-shadow: lightblue 1px 1px 1px;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
 }
 
 .profile-pic:hover {
