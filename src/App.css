@@ -25,7 +25,9 @@ body {
   justify-content: center;
   color: #d53369;
 }
-
+.nav h2:hover {
+  color: #daae51;
+}
 /* .home {
 
 } */
