@@ -20,6 +20,7 @@ class Profile extends React.Component {
 
                     {/* Username Here */}
                     <h1>shanicunn</h1>
+                    <p>Boston to Atlanta. 26. Software Developer.</p>
                     <div>
                      <UserLog />   
                     </div>
