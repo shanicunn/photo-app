@@ -27,11 +27,11 @@ class UserLog extends React.Component {
                 {(() => {
                     if (loggedIn) {
                     return (
-                        <button onClick={this.logOut}><h2>Log Out</h2></button>
+                        <button onClick={this.logOut}>Log Out</button>
                     )
                     } else {
                     return (
-                        <button onClick={this.login}><h2>Log In</h2></button>
+                        <button onClick={this.login}>Log In</button>
                     )
                     }
                 })()}
