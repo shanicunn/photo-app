@@ -52,7 +52,7 @@ body {
   height: 100px;
   border-radius: 30px;
   border: hotpink 1px solid;
-  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+  box-shadow: 5px 5px 2px 1px rgba(0, 0, 255, .2);
 }
 
 .profile-pic:hover {
