@@ -20,7 +20,10 @@ class Profile extends React.Component {
 
                     {/* Username Here */}
                     <h1>shanicunn</h1>
-                    <UserLog />
+                    <div>
+                     <UserLog />   
+                    </div>
+                    
                     {/* Grid of Photos */}
                     <PhotoGrid />
                     
